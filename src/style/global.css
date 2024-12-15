@@ -1,0 +1,114 @@
+/* Start Heros */
+.hero {
+  position: relative;
+  background-image: url(../assets/f78bb651b09c3c46e571a78dbef3099a.jpeg);
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.hero-two {
+  position: relative;
+  background-image: url(../assets/hero2.jpeg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.hero::before,
+.hero-two::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.hero-content {
+  position: relative;
+  z-index: 3 !important;
+}
+
+.heroText {
+  padding-top: 160px;
+}
+/* End Heros */
+
+/* Start Navbar */
+/* Target the dropdown toggle arrow and change it to white */
+.navbar-nav .nav-link.dropdown-toggle::after {
+  color: white !important; /* Ensure the arrow color is white */
+  border-top-color: white !important; /* Change the arrow's border color */
+  border-bottom-color: transparent !important; /* Hide the bottom border */
+  margin-left: 20px;
+}
+
+.custom-select-no-bg {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important; /* Optional: to remove any shadow */
+}
+/*End Navbar */
+
+/* Start Home */
+.Appointment {
+  position: relative;
+  background-image: url(../assets/form.jpeg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  height: auto;
+}
+.Appointment::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.form-content {
+  position: relative;
+  z-index: 3 !important;
+}
+.package-card {
+  min-height: 820px;
+  display: inline-block;
+}
+.swiperHome .swiper-wrapper {
+  display: flex;
+  gap: 20px;
+  padding-left: 10px;
+}
+.book-white {
+  border-radius: 6px;
+  border-color: rgb(139, 69, 19);
+  background: white;
+  width: 203px;
+}
+.book-dark {
+  color: white;
+  border-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  background: rgb(139, 69, 19);
+  width: 203px;
+}
+/* End Home */
+
+/* Start Contact US */
+.data,
+.data-right,
+.person {
+  background-color: #fcfcfc !important;
+}
+.icon {
+  color: rgb(139, 69, 19);
+} /* End Contact US */
