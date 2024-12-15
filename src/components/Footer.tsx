@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import footerLogo from "../assets/footer logo.png";
 import wp from "../assets/wp.png";
